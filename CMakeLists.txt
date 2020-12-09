@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(Qt_viewer LANGUAGES C CXX)
+project(shape-widget VERSION 1.0 LANGUAGES CXX)
 
-set(CMAKE_C_STANDARD 11)
-set(CMAKE_C_STANDARD_REQUIRED ON)
+add_definitions(-D DEBUG)
+
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -11,18 +11,15 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt5 COMPONENTS Core REQUIRED)
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
-find_package(Qt5 COMPONENTS Gui REQUIRED)
+find_package(Qt5 COMPONENTS Core REQUIRED)
 
-add_executable(Viewer
+add_executable(Main
     Main.cpp
-    Viewer.cpp
-    Viewer.qrc
+    ShapeWidget.cpp
 )
 
-target_link_libraries(Viewer
+target_link_libraries(Main
     Qt::Core
     Qt::Widgets
-    Qt::Gui
 )

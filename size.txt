@@ -1,2 +1,0 @@
-width: 34 * (i + 1)
-height: 21 + j * 34
