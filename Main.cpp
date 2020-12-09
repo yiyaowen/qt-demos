@@ -1,14 +1,14 @@
 #include <QApplication>
+#include <QWidget>
 
-#include "TrayIconApp.h"
+#include "VirtualKeyboard.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    a.setQuitOnLastWindowClosed(false);
 
-    TrayIconApp *tia = new TrayIconApp();
-    tia->show();
-
+    VirtualKeyboard *vk = new VirtualKeyboard();
+    vk->show();
+    
     return a.exec();
 }

@@ -1,4 +1,4 @@
-# Qt.TrayIcon.Demo
+# Qt.VirtualKeyboard.Demo
 
 ## 依赖
 
@@ -56,7 +56,12 @@ make
 
 ## 效果
 
-![截屏2020-11-26 下午10.08.32](https://tva1.sinaimg.cn/large/0081Kckwly1gl2xkpxw3aj30k201amyg.jpg)
+Windows 上：
 
-Windows 上效果会多一些，macOS 和用 X11 环境的 Linux 效果没有那么多，比如鼠标移到图标上没有提示框。
+![windows-demo](https://tva1.sinaimg.cn/large/0081Kckwly1gl2xov0effj31hc0u0gtp.jpg)
 
+macOS 上：
+
+![截屏2020-11-26 下午10.15.45](https://tva1.sinaimg.cn/large/0081Kckwly1gl2xp5xfhuj31c00u0e86.jpg)
+
+Linux 上还没试过，没装 Qt，效果大概差不多。

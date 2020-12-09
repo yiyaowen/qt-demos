@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(tray-icon VERSION 1.0 LANGUAGES CXX)
+project(virtual-keyboard VERSION 1.0 LANGUAGES CXX)
 
 add_definitions(-D DEBUG)
 
@@ -16,7 +16,7 @@ find_package(Qt5 COMPONENTS Core REQUIRED)
 
 add_executable(Main
     Main.cpp
-    TrayIconApp.cpp
+    VirtualKeyboard.cpp
 )
 
 target_link_libraries(Main
