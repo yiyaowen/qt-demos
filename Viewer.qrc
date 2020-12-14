@@ -3,5 +3,6 @@
         <file alias="black_cir.png">images/black_cir_32x32.png</file>
         <file alias="board.png">images/board_530x530.png</file>
         <file alias="white_cir.png">images/white_cir_32x32.png</file>
+        <file alias="record.txt">testfiles/test_record.txt</file>
     </qresource>
 </RCC>
