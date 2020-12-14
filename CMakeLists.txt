@@ -11,9 +11,12 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt5 COMPONENTS Core REQUIRED)
-find_package(Qt5 COMPONENTS Widgets REQUIRED)
-find_package(Qt5 COMPONENTS Gui REQUIRED)
+find_package(Qt5 COMPONENTS
+    Core
+    Widgets
+    Gui
+    REQUIRED
+)
 
 add_executable(Viewer
     Main.cpp
@@ -22,7 +25,7 @@ add_executable(Viewer
 )
 
 target_link_libraries(Viewer
-    Qt::Core
-    Qt::Widgets
-    Qt::Gui
+    Qt5::Core
+    Qt5::Widgets
+    Qt5::Gui
 )
