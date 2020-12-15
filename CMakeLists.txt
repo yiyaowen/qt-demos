@@ -12,10 +12,10 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 COMPONENTS 
-    Core REQUIRED
-    Widgets REQUIRED
-    Gui REQUIRED
-    Charts REQUIRED
+    Core
+    Widgets
+    Gui
+    Charts
 )
 
 add_executable(qchart-basic-demo
