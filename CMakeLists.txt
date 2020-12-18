@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(qchart-basic-demo LANGUAGES CXX)
+project(multithreading-basic-demo LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -15,18 +15,18 @@ find_package(Qt5 COMPONENTS
     Core
     Widgets
     Gui
-    Charts
 )
 
-add_executable(qchart-basic-demo
+add_executable(Main
     Main.cpp
-    ChartDemoWindow.cpp
-    ChartDemoWindow.h
+    ThreadDialog.cpp
+    ThreadDialog.h
+    WorkThread.cpp
+    WorkThread.h
 )
 
-target_link_libraries(qchart-basic-demo
+target_link_libraries(Main
     Qt5::Core
     Qt5::Widgets
     Qt5::Gui
-    Qt5::Charts
 )
