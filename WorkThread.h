@@ -13,6 +13,12 @@ public:
 
 protected:
     void run() override;
+
+public:
+    void stopRun() { keepRun = false; }
+
+private:
+    bool keepRun = true;
 };
 
 #endif // WORK_THREAD_H

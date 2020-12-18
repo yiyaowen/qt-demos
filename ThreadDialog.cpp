@@ -42,8 +42,7 @@ void ThreadDialog::slotStop()
     btnStop->setEnabled(false);
 
     for (auto workThread : workThreads) {
-        workThread->terminate();
-        workThread->wait();
+        workThread->stopRun();
     }
 
     btnStart->setEnabled(true);
