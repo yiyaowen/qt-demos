@@ -1,0 +1,3 @@
+[submodule "Gobang.Core.C"]
+	path = Gobang.Core.C
+	url = https://github.com/yiyaowen/Gobang.Core.C

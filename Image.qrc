@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="black.png">images/black-circle@25x25.png</file>
+        <file alias="white.png">images/white-circle@25x25.png</file>
+        <file alias="board.png">images/gobang-board@512x512.png</file>
+        <file alias="select_red.png">images/red-select-frame@31x31.png</file>
+        <file alias="select_orange.png">images/orange-select-frame@31x31.png</file>
+    </qresource>
+</RCC>
+
