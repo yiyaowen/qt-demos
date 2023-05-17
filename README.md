@@ -53,10 +53,3 @@ make
 ```
 
 一般工具链都配置好了，直接执行就行，如果报错再按照 Windows 一样配置路径就好了。
-
-## 效果
-
-![截屏2020-11-26 下午10.08.32](https://tva1.sinaimg.cn/large/0081Kckwly1gl2xkpxw3aj30k201amyg.jpg)
-
-Windows 上效果会多一些，macOS 和用 X11 环境的 Linux 效果没有那么多，比如鼠标移到图标上没有提示框。
-
